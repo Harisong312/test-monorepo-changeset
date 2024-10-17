@@ -1,0 +1,22 @@
+{
+  "name": "test-monorepo-changeset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@components/common": "workspace:^",
+    "@components/explorer": "workspace:^",
+    "@components/studio": "workspace:^",
+    "@packages/apis": "workspace:^",
+    "@packages/utils": "workspace:^"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.9"
+  }
+}
